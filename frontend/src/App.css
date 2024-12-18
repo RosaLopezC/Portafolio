@@ -1,0 +1,244 @@
+.main-section {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.main-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.main-section h1 ,
+.main-section h2,
+.main-section p,
+.profile-photo {
+  position: relative;
+  z-index: 2;
+}
+
+.profile-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 20px 0;
+  border: 3px solid #7e2ab9;
+}
+
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.about {
+  background-color: #7e2ab9;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 10%;
+}
+
+.about .about-text {
+  flex: 1;
+  text-align: justify;
+  padding-right: 40px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.about .about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about .about-image img {
+  width: 60%;
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 5%;
+  }
+
+  .about .about-text {
+    padding-right: 0;
+  }
+
+  .about .about-image img {
+    width: 80%;
+  }
+}
+
+.experience {
+  background-color: #fff;
+  color: #fff;
+  padding: 50px 10%;
+}
+
+.experience h2 {
+  margin: 0 0 40px 0;
+  text-align: center;
+  font-size: 35px;
+  color: #7e2ab9;
+  font-weight: bold; 
+}
+
+
+.experience-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 40%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+  background-image: linear-gradient(135deg, #6a0dad 0%, rgb(179, 91, 174) 100%);
+  color: #fff;
+  border: 1px solid #a176c0;
+}
+
+.card hr {
+  border: none;
+  border-top: 1px solid #f8edff; 
+  margin: 10px 0;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #a176c0;
+}
+
+.academic-experience {
+  background-color: #1e1e2e;
+}
+
+.work-experience {
+  background-color: #1e1e2e;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ece0f5;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ece0f5;
+  text-align: left;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.additional {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.additional ul {
+  list-style-type: disc;
+  margin: 20px auto;
+  text-align: left;
+  max-width: 600px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer a {
+  color: #eb77ce;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.about-carousel img {
+  border-radius: 10px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.quote {
+  background-color: #f9f9f9;
+  color: #000;
+  text-align: center;
+  padding: 80px 10%; 
+  margin: 50px 0; 
+}
+
+.quote h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar .nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #7e2ab9;
+}
+
+.about-carousel {
+  flex: 1;
+  text-align: center;
+}
+.about-carousel img {
+  border-radius: 10px;
+  height: 400px;
+  object-fit: cover;
+}
