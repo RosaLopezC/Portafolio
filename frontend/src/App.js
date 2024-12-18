@@ -6,6 +6,10 @@ import background from "./assets/background.jpg";
 import profilePhoto1 from "./assets/uno.jpg";
 import profilePhoto2 from "./assets/dos.jpg";
 import profilePhoto3 from "./assets/tres.jpg";
+import misslili from "./assets/misslili.png"; // Nueva imagen
+import matplay from "./assets/matplay.png"; // Nueva imagen
+import mmm from "./assets/mmm.png"; // Nueva imagen
+import audiovisuales from "./assets/audiovisuales.png"; // Nueva imagen
 import profilePhoto from "./assets/profile.png";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
@@ -128,7 +132,7 @@ function App() {
             <div className="card-grid">
               <div className="card academic-card">
                 <div className="card-image">
-                  <img src={profilePhoto1} alt="Proyecto 1" />
+                  <img src={misslili} alt="Proyecto Misslili" />
                 </div>
                 <div className="card-content">
                   <h4>III Ciclo</h4>
@@ -147,7 +151,7 @@ function App() {
               </div>
               <div className="card academic-card">
                 <div className="card-image">
-                  <img src={profilePhoto2} alt="Proyecto 2" />
+                  <img src={matplay} alt="Proyecto Matplay" />
                 </div>
                 <div className="card-content">
                   <h4>IV Ciclo</h4>
@@ -173,7 +177,7 @@ function App() {
             <div className="card-grid">
               <div className="card work-card">
                 <div className="card-image">
-                  <img src={profilePhoto3} alt="Trabajo 1" />
+                  <img src={mmm} alt="Trabajo MMM" />
                 </div>
                 <div className="card-content">
                   <h4>Diseñadora Gráfica y Fotógrafa</h4>
@@ -184,7 +188,7 @@ function App() {
               </div>
               <div className="card work-card">
                 <div className="card-image">
-                  <img src={profilePhoto1} alt="Trabajo 2" />
+                  <img src={audiovisuales} alt="Trabajo Audiovisuales" />
                 </div>
                 <div className="card-content">
                   <h4>Diseñador Gráfico</h4>
