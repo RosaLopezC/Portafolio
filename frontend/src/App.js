@@ -9,7 +9,6 @@ import profilePhoto3 from "./assets/tres.jpg";
 import profilePhoto from "./assets/profile.png";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
-
 function App() {
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
@@ -49,20 +48,19 @@ function App() {
           <ul>
             <li>
               <strong>Instituto de Educación Superior Privado TECSUP:</strong>
-              <br></br> 
+              <br />
               Diseño y Desarrollo de Software (2023 - Actualmente)
-              <br></br>
+              <br />
               <em>Acreedora de la beca BCP</em>
             </li>
-            
             <li>
               <strong>CIBERTEC:</strong>
-              <br></br> 
+              <br />
               Diseño Gráfico (2021 - 2022)
             </li>
             <li>
-              <strong>Instituto de Educación Superior CEPEA:</strong> 
-              <br></br>
+              <strong>Instituto de Educación Superior CEPEA:</strong>
+              <br />
               Diseño Gráfico (2019)
             </li>
           </ul>
@@ -118,40 +116,62 @@ function App() {
       </section>
 
       <section id="experience" className="section experience">
-      <strong><h2>Experiencias</h2></strong>
+        <strong><h2>Experiencias</h2></strong>
         <div className="experience-container">
-        <div className="card academic-experience">
-          <h3>Experiencia Académica</h3>
-          <div className="card-content">
-            <h4>III Ciclo:</h4>
-            <p><strong>Cursos:</strong> Diseño de Aplicaciones en Internet e Ingeniería de Requerimientos</p>
-            <p><strong>Título:</strong> Sistema de gestión administrativa de citas</p>
-            <p><strong>Descripción:</strong> Se creó un sistema que permite crear, eliminar, editar y listar pacientes, doctores y agendar citas en un horario.</p>
-            <hr />
-            <h4>IV Ciclo:</h4>
-            <p><strong>Cursos:</strong> Diseño de Aplicaciones web y Diseño de Aplicaciones Empresariales</p>
-            <p><strong>Título:</strong> Sistema Web de Juegos de Matemáticas para Niños</p>
-            <p><strong>Descripción:</strong> Desarrollo de un sistema interactivo que permite a los usuarios registrarse, acceder a lecciones personalizadas y participar en juegos educativos.</p>
+          <div className="card academic-experience">
+            <h3>Experiencia Académica</h3>
+            <div className="card-content">
+              <h4>III Ciclo:</h4>
+              <p><strong>Cursos:</strong> Diseño de Aplicaciones en Internet e Ingeniería de Requerimientos</p>
+              <p><strong>Título:</strong> Sistema de gestión administrativa de citas</p>
+              <p><strong>Descripción:</strong> Se creó un sistema que permite crear, eliminar, editar y listar pacientes, doctores y agendar citas en un horario.</p>
+              <p>
+                GitHub:{" "}
+                <a
+                  href="https://github.com/XaviNole/Proyecto-Herramienta-Administrativa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="github-link"
+                >
+                  Ver Proyecto
+                </a>
+              </p>
+              <hr />
+              <h4>IV Ciclo:</h4>
+              <p><strong>Cursos:</strong> Diseño de Aplicaciones web y Diseño de Aplicaciones Empresariales</p>
+              <p><strong>Título:</strong> Sistema Web de Juegos de Matemáticas para Niños</p>
+              <p><strong>Descripción:</strong> Desarrollo de un sistema interactivo que permite a los usuarios registrarse, acceder a lecciones personalizadas y participar en juegos educativos.</p>
+              <p>
+                GitHub:{" "}
+                <a
+                  href="https://github.com/RosaLopezC/proyecto.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="github-link"
+                >
+                  Ver Proyecto
+                </a>
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="card work-experience">
-          <h3>Experiencia Laboral</h3>
-          <div className="card-content">
-            <p>
-              <strong>Diseñadora gráfica y Fotógrafa</strong> - Movimiento Misionero Mundial<br />
-              He obtenido experiencias diseñando banners, volantes y anuncios publicitarios para grandes eventos.<br />
-              <em>Enero 2021 - Actualmente</em>
-            </p>
-            <hr />
-            <p>
-              <strong>Diseñador Gráfico</strong> - Audiovisuales para Iglesias<br />
-              Practicante con conocimientos en Adobe Photoshop e Illustrator.<br />
-              <em>Enero 2022 - Junio 2022</em>
-            </p>
+          <div className="card work-experience">
+            <h3>Experiencia Laboral</h3>
+            <div className="card-content">
+              <p>
+                <strong>Diseñadora gráfica y Fotógrafa</strong> - Movimiento Misionero Mundial<br />
+                He obtenido experiencias diseñando banners, volantes y anuncios publicitarios para grandes eventos.<br />
+                <em>Enero 2021 - Actualmente</em>
+              </p>
+              <hr />
+              <p>
+                <strong>Diseñador Gráfico</strong> - Audiovisuales para Iglesias<br />
+                Practicante con conocimientos en Adobe Photoshop e Illustrator.<br />
+                <em>Enero 2022 - Junio 2022</em>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
       </section>
 
       <footer className="footer">
@@ -168,6 +188,16 @@ function App() {
             rel="noopener noreferrer"
           >
             https://www.linkedin.com/in/rosalopezc/
+          </a>
+        </p>
+        <p>
+          Repositorio de GitHub:{" "}
+          <a
+            href="https://github.com/RosaLopezC"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://github.com/RosaLopezC
           </a>
         </p>
       </footer>
